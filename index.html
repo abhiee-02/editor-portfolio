@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhilash RS • Video Editor</title>
+  <meta name="description" content="Portfolio of Abhilash RS — Video Editor & Motion Graphics Artist" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#" onclick="scrollToEl('top')">
+        <span class="dot"></span>
+        <span>Abhilash RS</span>
+      </a>
+      <div class="links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="javascript:void(0)" id="hireBtn">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+  <!--Hire Model-->
+  <div class="hire-modal" id="hireModal">
+  <div class="hire-box">
+    <h3>Let’s work together 🚀</h3>
+
+    <a href="assets/Editor Cv .pdf" target="_blank" class="hire-action">
+      📄 View CV
+    </a>
+
+    <a href="https://wa.me/917986938140" target="_blank" class="hire-action">
+      💬 WhatsApp Me
+    </a>
+
+    <button class="hire-action" id="contactScroll">
+      🎬 Let’s Create Something
+    </button>
+
+    <span class="close-hire" id="closeHire">✕</span>
+  </div>
+</div>
+
+  <!-- MAIN -->
+  <main id="top" class="container">
+    <!-- HERO -->
+    <section class="hero">
+  <div class="container hero-grid">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-left card">
+      <span class="hero-tag">Video Editor • Motion Graphics</span>
+
+      <h1>
+        Stories that move, edits<br />
+        that groove.
+      </h1>
+
+      <p class="hero-desc">
+        I craft cinematic cuts, motion graphics, and high-energy short-form
+        videos that keep viewers watching. Skilled in Premiere Pro & After
+        Effects.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#work" class="btn primary">See My Work</a>
+        <a href="#contact" class="btn secondary">Let's Collaborate</a>
+      </div>
+
+      <div class="hero-skills">
+        <span class="skill-pill">Premiere Pro</span>
+        <span class="skill-pill">After Effects</span>
+        <span class="skill-pill">Speed Ramping</span>
+        <span class="skill-pill">Title Animation</span>
+        <span class="skill-pill">Color Grading</span>
+      </div>
+    </div>
+
+    <!-- RIGHT VIDEO -->
+<div class="tools-box">
+  <h1 class="orbit-center">Tools I Use</h1>
+  <div class="orbit-wrapper">
+    <div class="orbit">
+      <div class="tool-card t1"><img src="assets/Premiere_Pro-.png"></div>
+      <div class="tool-card t2"><img src="assets/after effect.png"></div>
+      <div class="tool-card t3"><img src="assets/CapCut_Logo-removebg-preview.png"></div>
+      <div class="tool-card t4"><img src="assets/photoshop.png"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  </div>
+</section>
+
+
+
+    <!-- SERVICES -->
+<!-- Services Section -->
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="section-title">Services</h2>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-tag">Cinematic Editing</span>
+        <h3>Trailers • Travel • Story</h3>
+        <p>
+          Trailer-style pacing, 4K cuts, and sound-synced storytelling with a
+          cinematic finish.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <span class="service-tag">Motion Graphics</span>
+        <h3>Titles • Lower Thirds • Logo</h3>
+        <p>
+          Custom title design, animated infographics, and logo stings in After
+          Effects.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <span class="service-tag">Short-Form & Ads</span>
+        <h3>Reels • Shorts • Promos</h3>
+        <p>
+          Hook-first edits, beat-matched transitions, and captions optimized for
+          engagement.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- PROJECTS -->
+  <section id="work" class="section">
+    <h2> Project Work</h2>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="reels">Reels</button>
+      <button class="filter" data-filter="title-animation">Title Animation</button>
+      <button class="filter" data-filter="motion-graphics">Motion Graphics</button>
+      <button class="filter" data-filter="logo-animation">Logo Animation</button>
+      <button class="filter" data-filter="wedding-highlight">Wedding Highlight</button>
+    </div>
+
+    <div class="grid cols-3" id="projects">
+
+      <!-- Project 1: Reels -->
+<article class="card project" data-tags="reels">
+  <div class="thumb"
+       data-videos='["assets/reels 13.mp4", "assets/1.mp4","assets/reels 12.mp4","assets/reels 11.mp4","assets/reels 1.mp4","assets/reels 2.mp4","assets/reels 4.mp4","assets/reels 5.mp4","assets/reels 14.mp4", "assets/reels 6.mp4","assets/reels 7.mp4","assets/reels 8.mp4","assets/reels 9.mp4","assets/reels 10.mp4"]'>
+    <img src="assets/reels.png" alt="Reels Project" loading="lazy">
+    <span class="pill">Reels</span>
+    <div class="play"><span class="btn">Open</span></div>
+  </div>
+  <h4>Reels Collection</h4>
+  <p class="meta">High-energy reels showcase.</p>
+</article>
+
+      <!-- Project 2: Title Animation -->
+      <article class="card project" data-tags="title-animation">
+        <div class="thumb"
+       data-videos='["assets/reels 3.mp4","assets/title animation 1.mp4","assets/title animation 2.mp4","assets/title animation 3.mp4","assets/title animation 4.mp4"]'>
+        <img src="assets/title animation.png" alt="Reels Project" loading="lazy">
+        <span class="pill">Title Animation</span>
+      <div class="play"><span class="btn">Open</span></div>
+      </div>
+        <h4>Title Animation</h4>
+        <p class="meta">Cinematic text & typography animations crafted in After Effects.</p>
+      </article>
+
+      <!-- Project 3: Motion Graphics -->
+      <article class="card project" data-tags="motion-graphics">
+  <div class="thumb"
+       data-videos='["assets/motion graphic.mp4"]'>
+    <img src="assets/motion graphics.png" alt="Reels Project" loading="lazy">
+    <span class="pill">Motion Graphics</span>
+    <div class="play"><span class="btn">Open</span></div>
+  </div>
+        <h4>Motion Graphics</h4>
+        <p class="meta">Creative animated elements & visual effects for engaging videos.</p>
+      </article>
+
+      <!-- Project 4: Logo Animation -->
+      <article class="card project" data-tags="logo-animation">
+        <div class="thumb" data-videos='["assets/Logo animation 1.mp4"]'>
+          <img src="assets/logo animation.png" alt="Logo Animation" loading="lazy">
+          <span class="pill">Logo Animation</span>
+          <div class="play"><span class="btn">Open</span></div>
+        </div>
+        <h4>Logo Animation</h4>
+        <p class="meta">Custom logo reveals with stylish motion graphics.</p>
+      </article>
+
+      <!-- Project 5: Wedding Highlight -->
+      <article class="card project" data-tags="wedding-highlight">
+        <div class="thumb" data-videos='["assets/wedding 1.mp4"]'>
+          <img src="assets/wedding Highlight.png" alt="Wedding Highlight" loading="lazy">
+          <span class="pill">Wedding Highlight</span>
+          <div class="play"><span class="btn">Open</span></div>
+        </div>
+        <h4>Wedding Highlight</h4>
+        <p class="meta">Beautifully edited wedding highlight reels & cinematic storytelling.</p>
+      </article>
+
+      <!-- Project 6: Tik tok edit -->
+      <article class="card project" data-tags="reels">
+        <div class="thumb" data-videos='["assets/tik tok edit 1.mp4"]'>
+          <img src="assets/tik tok edit.png" alt="Tik Tok Edit" loading="lazy">
+          <span class="pill">Reels</span>
+          <div class="play"><span class="btn">Open</span></div>
+        </div>
+        <h4>Tik Tok Edit</h4>
+        <p class="meta">Engaging TikTok video edits with trendy effects & music sync.</p>
+    </div>
+  </section>
+
+  <!-- Modal -->
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="videoContainer"></div>
+    <div class="modal-controls">
+      <button id="prevVideo">⟨ Prev</button>
+      <button id="nextVideo">Next ⟩</button>
+    </div>
+  </div>
+</div>
+
+
+    
+<!-- ABOUT / CONTACT -->
+<section id="about" class="section">
+  <div class="about-grid">
+    
+    <!-- About Card -->
+    <div class="card panel about-card">
+      <h2>👋 About Me</h2>
+      <p>
+      Hi, I'm <strong>Abhilash RS</strong> — a <strong>video editor</strong> and 
+      <strong>motion graphics creator</strong> who helps brands and creators transform 
+      raw footage into <em>captivating stories</em>. I specialize in <em>cinematic edits</em>, 
+      <em>dynamic motion design</em>, and <em>eye-catching titles</em> to elevate every frame, 
+      whether it’s a high-energy short-form ad or a cinematic trailer. I use industry-standard tools 
+      to ensure your message hits the mark.
+      </p>
+
+      <div class="skills">
+        <span class="chip">🎬 Premiere Pro</span>
+        <span class="chip">✨ After Effects</span>
+        <span class="chip">🎨 Color Grading</span>
+        <span class="chip">📺 YouTube/Shorts</span>
+        <span class="chip">🎵 Audition</span>
+      </div>
+    </div>
+
+    <!-- Contact Card -->
+    <div class="card panel contact-card" id="contact">
+      <h2>📩 Get in Touch</h2>
+        <form action="https://formsubmit.co/abhilash0064@gmail.com" method="POST" id="contactForm">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Tell me about your project" required></textarea>
+          </div>
+          <button class="btn" type="submit">🚀 Send Message</button>
+
+          <!-- hidden fields -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+          <input type="hidden" name="_replyto" value="%email%">
+          <input type="hidden" name="_next" value="success">
+
+        </form>
+
+        <!-- Success popup -->
+        <div id="successPopup" style="display:none; padding:12px; margin-top:12px; background:#2ecc71; color:#fff; border-radius:6px; text-align:center;">
+          ✅ Message sent successfully!
+        </div>
+
+
+
+      <div class="socials">
+        <a class="chip" href="https://mail.google.com/mail/?view=cm&fs=1&to=abhilash0064@gmail.com" target="_blank" rel="noreferrer">📧 Email</a>
+        <a class="chip" href="https://instagram.com/abhi__z4" target="_blank">📸 Instagram</a>
+        <a class="chip" href="https://www.linkedin.com/in/abhilasrs/" target="_blank">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <div>© <span id="year"></span> Abhilash RS • Open to freelance & collaborations</div>
+    <div class="socials">
+      <a href="#work">Work</a> · <a href="#services">Services</a> · <a href="#about">About</a> · <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="modal" id="videoModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-head">
+        <strong id="modalTitle">Playing…</strong>
+        <button class="toggle" id="closeModal">Close ✕</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="modalPlayer" src="" title="Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating shapes -->
+<div class="shape circle" style="top:50%; left:40%; animation-duration:18s;"></div>
+<div class="shape square" style="top:20%; left:80%; animation-duration:21s;"></div>
+<div class="shape triangle" style="top:70%; left:10%; animation-duration:22s;"></div>
+<div class="shape circle" style="top:80%; left:50%; animation-duration:42s;"></div>
+<div class="shape square" style="top:10%; left:30%; animation-duration:23s;"></div>
+<div class="shape triangle" style="top:40%; left:70%; animation-duration:8s;"></div>
+<div class="shape circle" style="top:30%; left:20%; animation-duration:24s;"></div>
+<div class="shape square" style="top:60%; left:90%; animation-duration:26s;"></div>
+<div class="shape triangle" style="top:15%; left:60%; animation-duration:39s;"></div>
+<div class="shape circle" style="top:75%; left:35%; animation-duration:15s;"></div>
+<div class="shape square" style="top:45%; left:15%; animation-duration:17s;"></div>
+
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
